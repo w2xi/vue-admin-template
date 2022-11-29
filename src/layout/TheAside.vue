@@ -75,6 +75,9 @@ $transitionTime: .28s;
     .el-menu-item.is-active {
       background: #0960bd !important;
     }
+    .el-menu-item:hover {
+      background: #0960bd44;
+    }
   }
 }
 </style>

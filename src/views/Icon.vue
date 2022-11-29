@@ -41,8 +41,6 @@ export default {
         result[index].push(icons[i])
       }
 
-      console.log(result);
-
       return result;
     }
   }

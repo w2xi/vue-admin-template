@@ -13,6 +13,7 @@ export default new Vuex.Store({
   state: {
     userInfo,
     menuList: [],
+    visitedRoutes: [],
   },
   mutations: {
     SET_USER_INFO(state, userInfo) {
@@ -20,6 +21,22 @@ export default new Vuex.Store({
     },
     SET_MENU_LIST(state, menuList) {
       state.menuList = menuList
+    },
+    ADD_VISITED_ROUTE(state, route) {
+      const target = state.visitedRoutes.find(item => item.path === route.path)
+      if (target) {
+        if (target.fullPath !== route.fullPath) {
+          Object.assign(target, route)
+        }
+      } else {
+        state.visitedRoutes.push({ ...route })
+      }
+    },
+    REMVOE_VISITED_ROUTE(state, index) {
+      // const index = state.visitedRoutes.findIndex(item => item.path === path)
+      if (index !== -1) {
+        return state.visitedRoutes.splice(index, 1)
+      }
     },
   },
   actions: {
