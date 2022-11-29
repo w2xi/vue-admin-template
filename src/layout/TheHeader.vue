@@ -46,6 +46,7 @@ export default {
   justify-content: flex-end;
   background: #fff;
   border-bottom: 1px solid #d9d9d9;
+  box-sizing: border-box;
   .account-info {
     display: flex;
     align-items: center;

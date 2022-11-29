@@ -46,12 +46,12 @@ export default {
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .el-main {
-  overflow-x: hidden;
+  height: calc(100vh - 80px);
   background: #f5f5f5;
   color: #333;
-  padding: 20px;
   border-radius: 6px;
+  padding: 15px;
 }
 </style>
