@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 .el-main {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px - 61px);
   background: #f5f5f5;
   color: #333;
   border-radius: 6px;

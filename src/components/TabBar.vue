@@ -126,6 +126,7 @@ export default {
 
 <style lang="scss" scoped>
 .tabs-bar-container {
+  height: 55px;
   padding: 3px 15px;
 }
 .el-tabs :deep(.el-tabs__header) {

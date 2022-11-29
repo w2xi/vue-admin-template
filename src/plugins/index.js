@@ -1,1 +1,2 @@
 import './element'
+import './amap'

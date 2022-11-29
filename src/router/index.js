@@ -4,7 +4,7 @@ import Layout from '../layout/Layout.vue'
 
 Vue.use(VueRouter)
 
-const constantRoutes = [
+export const constantRoutes = [
   {
     path: '/',
     redirect: '/dashboard',
@@ -14,12 +14,26 @@ const constantRoutes = [
         path: '/dashboard',
         name: 'Dashboard',
         component: () => import('@/views/Dashboard.vue'),
+        meta: { affix: true, icon: 'el-icon-data-board' }
       },
       {
         path: '/icon',
         name: 'Icon',
         component: () => import('@/views/Icon.vue'),
+        meta: { icon: 'el-icon-watermelon' }
       },
+      {
+        path: '/amap',
+        name: 'AMap',
+        component: () => import('@/views/AMap.vue'),
+        meta: { icon: 'el-icon-map-location' }
+      },
+      {
+        path: '/video',
+        name: 'AMap',
+        component: () => import('@/views/Video.vue'),
+        meta: { icon: '' }
+      }
     ]
   },
   {

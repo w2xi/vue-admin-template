@@ -20,6 +20,14 @@
         <i class="el-icon-watermelon"></i>
         <span>Icon</span>
       </el-menu-item>
+      <el-menu-item index="/amap">
+        <i class="el-icon-map-location"></i>
+        <span>AMap</span>
+      </el-menu-item>
+      <el-menu-item index="/video">
+        <i class="el-icon-map-location"></i>
+        <span>Video</span>
+      </el-menu-item>
     </el-menu>
   </el-aside>
 </template>
