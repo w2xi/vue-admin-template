@@ -9,7 +9,8 @@
     "xstest": "vue-cli-service build --mode xstest",
     "build:k8s": "vue-cli-service build --mode k8s",
     "prepare": "husky install",
-    "analyze": "vue-cli-service build --report"
+    "analyze": "vue-cli-service build --report",
+    "mock": "mm"
   },
   "dependencies": {
     "axios": "^0.26.0",

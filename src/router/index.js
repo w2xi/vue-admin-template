@@ -15,6 +15,11 @@ const constantRoutes = [
         name: 'Dashboard',
         component: () => import('@/views/Dashboard.vue'),
       },
+      {
+        path: '/icon',
+        name: 'Icon',
+        component: () => import('@/views/Icon.vue'),
+      },
     ]
   },
   {

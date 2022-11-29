@@ -47,27 +47,11 @@ export default {
 </script>
 
 <style scoped>
-
-.menu-title {
-  font-size: 16px;
-  line-height: 30px;
-  margin: 20px 0 0 20px;
-  padding-bottom: 10px;
-  /* border-bottom: 1px solid #ddd; */
-}
-.link {
-  font-size: 14px;
-  margin-left: 10px;
-  color: #4193ff;
-  text-decoration: underline;
-}
-
 .el-main {
   overflow-x: hidden;
-  background: #fff;
+  background: #f5f5f5;
   color: #333;
-  margin: 15px 0 13px 18px;
+  padding: 20px;
   border-radius: 6px;
-  padding:0 !important;
 }
 </style>

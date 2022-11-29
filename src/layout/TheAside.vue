@@ -13,8 +13,12 @@
       router
     >
       <el-menu-item index="/dashboard">
-        <i class="el-icon-watermelon"></i>
+        <i class="el-icon-data-board"></i>
         <span>Dashboard</span>
+      </el-menu-item>
+      <el-menu-item index="/icon">
+        <i class="el-icon-watermelon"></i>
+        <span>Icon</span>
       </el-menu-item>
     </el-menu>
   </el-aside>

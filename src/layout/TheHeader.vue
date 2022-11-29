@@ -11,6 +11,9 @@
         </span>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item command="logout">退出</el-dropdown-item>
+          <el-dropdown-item>
+            <el-link href="https://github.com/w2xi/vue-admin-template" target="_blank">Github</el-link>
+          </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
     </div>
