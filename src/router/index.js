@@ -30,7 +30,7 @@ export const constantRoutes = [
       },
       {
         path: '/video',
-        name: 'AMap',
+        name: 'Video',
         component: () => import('@/views/Video.vue'),
         meta: { icon: '' }
       }
